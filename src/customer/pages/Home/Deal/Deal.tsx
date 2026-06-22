@@ -1,4 +1,3 @@
-import React from 'react'
 import DealCard from './DealCard'
 
 const Deal = () => {

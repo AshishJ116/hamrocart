@@ -1,5 +1,3 @@
-import React from 'react'
-
 const DealCard = ({deal}:any) => {
   return (
     <div className='w=full cursor-pointer'>

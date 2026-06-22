@@ -1,4 +1,4 @@
-import { Button, ThemeProvider } from "@mui/material"
+import { ThemeProvider } from "@mui/material"
 import { customTheme } from "./theme/customTheme"
 import Home from "./customer/pages/Home/Home"
 
