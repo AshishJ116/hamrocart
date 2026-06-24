@@ -3,7 +3,9 @@ import ElectronicCategory from './ElectronicCategory/ElectronicCategory'
 import Grid from './Grid/Grid'
 import Deal from './Deal/Deal'
 import HomeCategory from './HomeCategory/HomeCategory'
-
+import lady from '../../../assets/customer/lady.png'
+import { Button } from '@mui/material'
+import Storefront from '@mui/icons-material/Storefront'
  
 const Home = () => {
   return (
@@ -22,10 +24,16 @@ const Home = () => {
             <HomeCategory/>
         </section> 
         <section className='lg:px-20 relative h-[200px] lg:h-[450px] object-cover'>
-          <img src="https://t3.ftcdn.net/jpg/18/72/05/18/360_F_1872051802_mHwtpE3W0GHqOcmzhSxeQMGhteYoUsvN.jpg" alt=""/>
+         {/* <div><img src={lady} alt=""/> </div> */}
+         <div><img src="https://zosh-bazzar.vercel.app/seller_banner_image.jpg" alt=""/> </div>
           <div className='absolute top-1/2 left-4 lg:left-[15rem] transform -translate-y-1/2 font-sembold lg:text-4xl space-y-3'>
              <h1> Sell Your Product </h1>
+             <p className='text-lg md:text-2xl'>With <strong className='logo text-3xl md:text-5xl pl-2'>HamroCart</strong> </p>
+            <div className='pt-6 flex justify-center'> 
+              <Button startIcon={<Storefront/>} variant='contained'> Become Seller </Button>
+            </div>
           </div>
+
         </section>
     </div>
   )
