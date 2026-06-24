@@ -3,7 +3,6 @@ import ElectronicCategory from './ElectronicCategory/ElectronicCategory'
 import Grid from './Grid/Grid'
 import Deal from './Deal/Deal'
 import HomeCategory from './HomeCategory/HomeCategory'
-import lady from '../../../assets/customer/lady.png'
 import { Button } from '@mui/material'
 import Storefront from '@mui/icons-material/Storefront'
  
