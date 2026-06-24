@@ -1,6 +1,6 @@
 const DealCard = ({deal}:any) => {
   return (
-    <div className='w=full cursor-pointer'>
+    <div className='w-full cursor-pointer'>
 
         <img className='border-x-[7px] border-t-[7px] border-pink-600 w-full h-[12rem] object-cover object-top' src={deal.image} alt=""/>
 
