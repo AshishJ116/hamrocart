@@ -1,13 +1,29 @@
+// import { createTheme } from "@mui/material";
+
+// export const customTheme=createTheme({
+//     palette:{
+//         mode:"light",
+//         primary:{
+//             main:"#00927c"            
+//         },
+//         secondary:{
+//             main:"#EAF0F1"
+//         },
+//     }
+// })
+
+
+
 import { createTheme } from "@mui/material";
 
-export const customTheme=createTheme({
-    palette:{
-        mode:"light",
-        primary:{
-            main:"#00927c"            
-        },
-        secondary:{
-            main:"#EAF0F1"
-        },
-    }
-})
+export const customTheme = createTheme({
+  palette: {
+    mode: "light",
+    primary: {
+      main: "#2563EB", // Blue 600
+    },
+    secondary: {
+      main: "#ffee00",
+    },
+  },
+});
